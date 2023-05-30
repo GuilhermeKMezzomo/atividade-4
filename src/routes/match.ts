@@ -7,6 +7,6 @@ routes.get('/', MatchController.getAllMatch);
 routes.get('/', MatchController.getId);
 routes.post('/create', MatchController.postMatch);
 routes.put('/', MatchController.putMatch);
-routes.delete('/:', MatchController.deleteMatch);
+routes.delete('/', MatchController.deleteMatch);
 
 export default routes;
